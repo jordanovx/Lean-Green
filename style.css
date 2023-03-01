@@ -779,6 +779,7 @@ img.buys:hover {
   flex-wrap: nowrap;
   gap: 15px;
   margin: 0 auto;
+  justify-content: center;
 }
 
 .moneybackp img {
