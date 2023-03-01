@@ -124,6 +124,7 @@ h6 {
 .second-section .wrapper {
   flex-direction: column;
   background: var(--grey-color);
+  padding: 60px 0;
 }
 
 .second-section .row .reccomendations {
@@ -140,7 +141,7 @@ h6 {
 }
 
 .second-section .card1 .card-content {
-  margin: 0 20px;
+  margin: 30px 0 0 0;
 }
 
 .second-section .card1 .card-content p:not(:last-child) {
@@ -149,6 +150,10 @@ h6 {
 
 .second-section .card1 .card-content p:last-child {
   color: var(--red-color);
+}
+
+.second-section .card1 {
+  padding: inherit;
 }
 
 .second-section .card1 p {
@@ -499,6 +504,10 @@ li::before {
   justify-content: space-evenly;
   gap: 30px;
   margin: 40px 0 40px 0;
+  flex-direction: row;
+  align-content: flex-end;
+  flex-wrap: wrap;
+  align-items: flex-start;
 }
 
 .card1 {
@@ -559,8 +568,13 @@ img.bigbuy:hover {
 
 .bggreen h2 {
   margin: 50px 0 80px;
-  font-weight: 400;
+  font-weight: 800;
   color: var(--white-color);
+}
+
+.wrapper:nth-child(1) .green-section .bggreen:nth-child(1) {
+  font-weight: 400;
+  background: red;
 }
 
 .bggreen img {
@@ -574,6 +588,7 @@ img.bigbuy:hover {
 
 .test-8-section h2 {
   text-align: center;
+  color: var(--white-color);
 }
 
 .product-img {
@@ -646,6 +661,7 @@ img.bigbuy:hover {
   gap: 30px;
   align-items: center;
   margin-bottom: 30px;
+  margin-top: 60px;
 }
 
 .card-green {
@@ -925,10 +941,9 @@ footer .wrapper {
 }
 
 .links-container hr {
-  margin: 0;
   padding: 0;
   border: 2px solid var(--grey-color);
-  width: 100%;
+  width: 84%;
 }
 
 .links-container .first {
@@ -946,6 +961,7 @@ footer .wrapper {
   text-align: center;
   font-weight: 400;
   line-height: 20px;
+  width: 79%;
 }
 
 .links-container .third p {
@@ -960,7 +976,7 @@ footer .wrapper {
   box-sizing: border-box;
   padding: 10px 0;
   border: 1px solid #333333;
-  width: 100%;
+  width: 79%;
   font-weight: 400;
   line-height: 20px;
 }
@@ -1012,6 +1028,7 @@ footer .wrapper {
 
   .section {
     display: block;
+    margin: 60px 0 0 0;
   }
 
   .card1 {
@@ -1032,6 +1049,10 @@ footer .wrapper {
     margin: 10px 0;
   }
 
+  .ingridients-3-section .card1 .card-img {
+    padding: 30px 0;
+  }
+
   section.why-5section .product {
     flex-direction: column;
   }
@@ -1041,7 +1062,7 @@ footer .wrapper {
   }
 
   .moneybackp {
-    padding: 0 30px;
+    padding: 0 30px 30px 30px;
   }
 
   .product-section .moneybackp p {
@@ -1060,6 +1081,11 @@ footer .wrapper {
     display: block;
     text-align: center;
     width: 100%;
+  }
+
+  .faq-section .faq p {
+    line-height: 20px;
+    font-size: 17px;
   }
 
   .wrapper:nth-child(10) {
@@ -1100,6 +1126,10 @@ footer .wrapper {
 
   .rediscover-5-section .wrapper {
     flex-direction: column;
+  }
+
+  .product-section .product .prod {
+    width: auto;
   }
 
   .row {
