@@ -1164,6 +1164,7 @@ footer .wrapper {
 @media screen and (max-width: 320px) {
   p {
     font-size: 8px;
+    background: orange;
   }
 
   h2 {
@@ -1183,6 +1184,14 @@ footer .wrapper {
     line-height: 15px;
   }
 
+  .q {
+    flex-wrap: nowrap;
+  }
+
+  .faq-section .faq p {
+    font-size: 11px;
+  }
+
   .product-section .wrapper {
     flex-direction: column;
     flex-wrap: wrap;
@@ -1192,20 +1201,25 @@ footer .wrapper {
 
   .card,
   .top {
-    width: auto;
+    width: 100%;
   }
 
   .card .btn .buys {
     width: 90%;
   }
 
-  .product-section .moneybackp p {
+  .moneybackp p {
     font-size: 7px;
     line-height: 10px;
   }
 
+  .reccomendations p {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
   .product-section .product .prod {
-    width: 280px;
+    width: 240px;
   }
 
   .product .moneyback {
@@ -1253,11 +1267,11 @@ footer .wrapper {
   }
 
   section.ingridients-3-section img {
-    width: 230px;
+    width: 240px;
   }
 
   section .middle img {
-    background: red;
+    background: rebeccapurple;
     width: 300px;
   }
 
@@ -1269,5 +1283,46 @@ footer .wrapper {
 
   .product li:not(:last-child) {
     margin-bottom: 10px;
+  }
+
+  section.why-5section .heading h2 {
+    font-size: 32px;
+  }
+
+  .product-section h2 {
+    font-size: 15px;
+  }
+
+  .second-section .card1 .card-content h4 {
+    font-size: 18px;
+  }
+
+  .second-section .card1 p,
+  .ingridients-3-section .card1 p,
+  .card1 .card-content li {
+    margin: auto;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .card1 h6 {
+    font-size: 12px;
+    margin: 10px 0 10px 0;
+  }
+
+  .card1 .card-content li {
+    font-size: 11px;
+  }
+
+  .ingridients-3-section .card1 .card-content {
+    padding: 0;
+  }
+
+  #cardwrap h2 {
+    padding: 30px;
+  }
+
+  #cardwrap .card1 {
+    padding: 15px 0;
   }
 }
