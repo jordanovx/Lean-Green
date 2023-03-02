@@ -1161,7 +1161,7 @@ footer .wrapper {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 320px) {
   p {
     font-size: 8px;
   }
@@ -1253,7 +1253,7 @@ footer .wrapper {
   }
 
   section.ingridients-3-section img {
-    width: 100%;
+    width: 230px;
   }
 
   section .middle img {
