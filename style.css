@@ -998,8 +998,17 @@ footer .wrapper {
     margin: 0 auto;
   }
 
+  .hero-section .right {
+    background-position-x: center;
+    background-size: cover;
+  }
+
   h1 {
     font-size: 30px;
+  }
+
+  p {
+    font-size: 13px;
   }
 
   header {
@@ -1011,10 +1020,10 @@ footer .wrapper {
     display: block;
   }
 
-  .green-section .bggreen h2 {
+  /* .green-section .bggreen h2 {
     font-size: 24px;
     line-height: 28px;
-  }
+  } */
 
   .product-section .wrapper {
     flex-direction: column;
@@ -1069,6 +1078,7 @@ footer .wrapper {
 
   .moneybackp {
     padding: 0 30px 30px 30px;
+    width: auto;
   }
 
   .product-section .moneybackp p {
@@ -1090,8 +1100,8 @@ footer .wrapper {
   }
 
   .faq-section .faq p {
-    line-height: 20px;
-    font-size: 17px;
+    line-height: 16px;
+    font-size: 13px;
   }
 
   .wrapper:nth-child(10) {
@@ -1108,7 +1118,7 @@ footer .wrapper {
   }
 
   .hero-section {
-    height: 250px;
+    height: 300px;
     text-align: center;
   }
 
@@ -1148,5 +1158,116 @@ footer .wrapper {
 
   footer {
     padding: 0 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  p {
+    font-size: 8px;
+  }
+
+  h2 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  h4 {
+    background: red;
+    padding: 0 15px;
+  }
+
+  .ingridients-3-section h4,
+  section.why-5section .heading h4,
+  .q h4 {
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  .product-section .wrapper {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: stretch;
+  }
+
+  .card,
+  .top {
+    width: auto;
+  }
+
+  .card .btn .buys {
+    width: 90%;
+  }
+
+  .product-section .moneybackp p {
+    font-size: 7px;
+    line-height: 10px;
+  }
+
+  .product-section .product .prod {
+    width: 280px;
+  }
+
+  .product .moneyback {
+    right: 0px;
+  }
+
+  .second-section .row .card1 {
+    box-shadow: none;
+    border-radius: 0;
+    background: none;
+    justify-content: center;
+  }
+
+  .second-section .card-img img {
+    width: 200px;
+  }
+
+  .bggreen img {
+    position: absolute;
+    bottom: -20px;
+    width: 40px;
+    height: 40px;
+  }
+
+  img.bigbuy {
+    width: 80%;
+  }
+
+  .ingridients-3-section .card1 {
+    flex-direction: row;
+    padding: 10px;
+  }
+
+  .ingridients-3-section .card1 .card-img {
+    padding: 15px 0;
+  }
+
+  .ingridients-3-section .card1 .card-img {
+    margin: 0 auto;
+    background: yellow;
+  }
+
+  section.ingridients-3-section {
+    width: fit-content;
+  }
+
+  section.ingridients-3-section img {
+    width: 100%;
+  }
+
+  section .middle img {
+    background: red;
+    width: 300px;
+  }
+
+  .product ul {
+    width: auto;
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .product li:not(:last-child) {
+    margin-bottom: 10px;
   }
 }
