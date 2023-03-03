@@ -993,6 +993,172 @@ footer .wrapper {
 
 /* End of Footer section */
 
+@media screen and (max-width: 320px) {
+  p {
+    font-size: 8px;
+    background: orange;
+  }
+
+  h2 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  h4 {
+    background: red;
+    padding: 0 15px;
+  }
+
+  .ingridients-3-section h4,
+  section.why-5section .heading h4,
+  .q h4 {
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  .q {
+    flex-wrap: nowrap;
+  }
+
+  .faq-section .faq p {
+    font-size: 11px;
+  }
+
+  .product-section .wrapper {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: stretch;
+  }
+
+  .card,
+  .top {
+    width: 100%;
+  }
+
+  .card .btn .buys {
+    width: 90%;
+  }
+
+  .moneybackp p {
+    font-size: 7px;
+    line-height: 10px;
+  }
+
+  .reccomendations p {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .product-section .product .prod {
+    width: 240px;
+  }
+
+  .product .moneyback {
+    right: 0px;
+  }
+
+  .second-section .row .card1 {
+    box-shadow: none;
+    border-radius: 0;
+    background: none;
+    justify-content: center;
+  }
+
+  .second-section .card-img img {
+    width: 200px;
+  }
+
+  .bggreen img {
+    position: absolute;
+    bottom: -20px;
+    width: 40px;
+    height: 40px;
+  }
+
+  img.bigbuy {
+    width: 80%;
+  }
+
+  .ingridients-3-section .card1 {
+    flex-direction: row;
+    padding: 10px;
+  }
+
+  .ingridients-3-section .card1 .card-img {
+    padding: 15px 0;
+  }
+
+  .ingridients-3-section .card1 .card-img {
+    margin: 0 auto;
+    background: yellow;
+  }
+
+  section.ingridients-3-section {
+    width: fit-content;
+  }
+
+  section.ingridients-3-section img {
+    width: 240px;
+  }
+
+  section .middle img {
+    background: rebeccapurple;
+    width: 300px;
+  }
+
+  .product ul {
+    width: auto;
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .product li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  section.why-5section .heading h2 {
+    font-size: 32px;
+  }
+
+  .product-section h2 {
+    font-size: 15px;
+  }
+
+  .second-section .card1 .card-content h4 {
+    font-size: 18px;
+  }
+
+  .second-section .card1 p,
+  .ingridients-3-section .card1 p,
+  .card1 .card-content li {
+    margin: auto;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .card1 h6 {
+    font-size: 12px;
+    margin: 10px 0 10px 0;
+  }
+
+  .card1 .card-content li {
+    font-size: 11px;
+  }
+
+  .ingridients-3-section .card1 .card-content {
+    padding: 0;
+  }
+
+  #cardwrap h2 {
+    padding: 30px;
+  }
+
+  #cardwrap .card1 {
+    padding: 15px 0;
+  }
+}
+
 @media screen and (max-width: 600px) {
   body {
     margin: 0 auto;
@@ -1158,171 +1324,5 @@ footer .wrapper {
 
   footer {
     padding: 0 30px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  p {
-    font-size: 8px;
-    background: orange;
-  }
-
-  h2 {
-    font-size: 20px;
-    line-height: 25px;
-  }
-
-  h4 {
-    background: red;
-    padding: 0 15px;
-  }
-
-  .ingridients-3-section h4,
-  section.why-5section .heading h4,
-  .q h4 {
-    font-size: 10px;
-    line-height: 15px;
-  }
-
-  .q {
-    flex-wrap: nowrap;
-  }
-
-  .faq-section .faq p {
-    font-size: 11px;
-  }
-
-  .product-section .wrapper {
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: stretch;
-  }
-
-  .card,
-  .top {
-    width: 100%;
-  }
-
-  .card .btn .buys {
-    width: 90%;
-  }
-
-  .moneybackp p {
-    font-size: 7px;
-    line-height: 10px;
-  }
-
-  .reccomendations p {
-    font-size: 12px;
-    line-height: 14px;
-  }
-
-  .product-section .product .prod {
-    width: 240px;
-  }
-
-  .product .moneyback {
-    right: 0px;
-  }
-
-  .second-section .row .card1 {
-    box-shadow: none;
-    border-radius: 0;
-    background: none;
-    justify-content: center;
-  }
-
-  .second-section .card-img img {
-    width: 200px;
-  }
-
-  .bggreen img {
-    position: absolute;
-    bottom: -20px;
-    width: 40px;
-    height: 40px;
-  }
-
-  img.bigbuy {
-    width: 80%;
-  }
-
-  .ingridients-3-section .card1 {
-    flex-direction: row;
-    padding: 10px;
-  }
-
-  .ingridients-3-section .card1 .card-img {
-    padding: 15px 0;
-  }
-
-  .ingridients-3-section .card1 .card-img {
-    margin: 0 auto;
-    background: yellow;
-  }
-
-  section.ingridients-3-section {
-    width: fit-content;
-  }
-
-  section.ingridients-3-section img {
-    width: 240px;
-  }
-
-  section .middle img {
-    background: rebeccapurple;
-    width: 300px;
-  }
-
-  .product ul {
-    width: auto;
-    font-size: 16px;
-    line-height: 18px;
-  }
-
-  .product li:not(:last-child) {
-    margin-bottom: 10px;
-  }
-
-  section.why-5section .heading h2 {
-    font-size: 32px;
-  }
-
-  .product-section h2 {
-    font-size: 15px;
-  }
-
-  .second-section .card1 .card-content h4 {
-    font-size: 18px;
-  }
-
-  .second-section .card1 p,
-  .ingridients-3-section .card1 p,
-  .card1 .card-content li {
-    margin: auto;
-    font-size: 14px;
-    line-height: 16px;
-  }
-
-  .card1 h6 {
-    font-size: 12px;
-    margin: 10px 0 10px 0;
-  }
-
-  .card1 .card-content li {
-    font-size: 11px;
-  }
-
-  .ingridients-3-section .card1 .card-content {
-    padding: 0;
-  }
-
-  #cardwrap h2 {
-    padding: 30px;
-  }
-
-  #cardwrap .card1 {
-    padding: 15px 0;
   }
 }
