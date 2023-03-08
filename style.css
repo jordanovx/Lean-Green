@@ -1009,6 +1009,11 @@ footer .wrapper {
     padding: 0 15px;
   }
 
+  .hero-section .center h1 {
+    font-size: 16px;
+    line-height: 0px;
+  }
+
   .ingridients-3-section h4,
   section.why-5section .heading h4,
   .q h4 {
@@ -1051,7 +1056,7 @@ footer .wrapper {
   }
 
   .product-section .product .prod {
-    width: 240px;
+    width: 85%;
   }
 
   .product .moneyback {
@@ -1122,7 +1127,8 @@ footer .wrapper {
   }
 
   .product-section h2 {
-    font-size: 15px;
+    font-size: 14px;
+    line-height: 19px;
   }
 
   .second-section .card1 .card-content h4 {
@@ -1198,10 +1204,10 @@ footer .wrapper {
     align-content: stretch;
   }
 
-  .product-section h2 {
+  /* .product-section h2 {
     font-size: 20px;
     line-height: 25px;
-  }
+  } */
 
   .product-section h4 {
     font-size: 11px;
@@ -1255,9 +1261,9 @@ footer .wrapper {
     width: fit-content;
   }
 
-  img.bigbuy {
+  /* img.bigbuy {
     width: 500px;
-  }
+  } */
 
   .faq-section {
     display: block;
@@ -1279,9 +1285,9 @@ footer .wrapper {
     padding: 0 10px;
   }
 
-  .second-section .card-img img {
+  /* .second-section .card-img img {
     width: 450px;
-  }
+  } */
 
   .hero-section {
     height: 300px;
@@ -1292,10 +1298,10 @@ footer .wrapper {
     align-items: center;
   }
 
-  .hero-section .center h1 {
+  /* .hero-section .center h1 {
     font-size: 30px;
     line-height: 15px;
-  }
+  } */
 
   .hero-section .center h3 {
     font-size: 15px;
@@ -1310,9 +1316,9 @@ footer .wrapper {
     flex-direction: column;
   }
 
-  .product-section .product .prod {
+  /* .product-section .product .prod {
     width: auto;
-  }
+  } */
 
   .row {
     display: block;
