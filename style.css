@@ -996,7 +996,7 @@ footer .wrapper {
 @media screen and (max-width: 320px) {
   p {
     font-size: 8px;
-    background: orange;
+    /* background: orange; */
   }
 
   h2 {
@@ -1005,7 +1005,7 @@ footer .wrapper {
   }
 
   h4 {
-    background: red;
+    /* background: red; */
     padding: 0 15px;
   }
 
@@ -1076,9 +1076,8 @@ footer .wrapper {
 
   .bggreen img {
     position: absolute;
-    bottom: -20px;
-    width: 40px;
-    height: 40px;
+    bottom: -40px;
+    width: 70px;
   }
 
   img.bigbuy {
@@ -1096,7 +1095,7 @@ footer .wrapper {
 
   .ingridients-3-section .card1 .card-img {
     margin: 0 auto;
-    background: yellow;
+    /* background: yellow; */
   }
 
   section.ingridients-3-section {
